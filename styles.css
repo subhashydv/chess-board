@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.board {
+    width: 600px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    
+}
+.block {
+    width: 75.00000000000000000000px;
+    height: 75.00000000000000000000px;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
